@@ -2,7 +2,41 @@
 	{
 		"__TYPE__": "SharedSliceContent",
 		"variation": "default",
-		"primary": {},
+		"primary": {
+			"body": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Et id occaecat anim qui sint deserunt dolor nisi adipisicing aute ad voluptate exercitation minim."
+						}
+					}
+				]
+			},
+			"button": {
+				"__TYPE__": "LinkContent",
+				"key": "631f2cf7-bdbe-4f7a-acd4-5a67a5889831",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "https://slicemachine.dev",
+					"text": "Buy Now"
+				}
+			},
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading1",
+						"content": {
+							"text": "Suburbia Skateboards",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			}
+		},
 		"items": []
 	}
 ]

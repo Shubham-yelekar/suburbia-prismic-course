@@ -43,6 +43,10 @@
           "thumbnails": []
         },
         "type": "Image"
+      },
+      "slices1": {
+        "type": "Slices",
+        "fieldset": "Slice Zone"
       }
     }
   }
