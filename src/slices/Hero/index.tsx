@@ -38,7 +38,7 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
         </Heading>
 
         <div className="flex relative w-full flex-col items-center justify-between ~gap-2/4 lg:flex-row">
-          <div className="max-w-[45ch] font-semibold ~text-lg/xl">
+          <div className="max-w-[42ch] text-center font-semibold lg:text-left ~text-lg/xl">
             <PrismicRichText field={slice.primary.body} />
           </div>
           <ButtonLink
