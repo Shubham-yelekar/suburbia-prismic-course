@@ -41,6 +41,7 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
           <div className="max-w-[42ch] text-center font-semibold lg:text-left ~text-lg/xl">
             <PrismicRichText field={slice.primary.body} />
           </div>
+
           <ButtonLink
             field={slice.primary.button}
             icon="skateboard"

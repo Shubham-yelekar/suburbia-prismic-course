@@ -1,4 +1,5 @@
 "use client";
+import { SlideIn } from "@/components/SlideIn";
 import { ImageField } from "@prismicio/client";
 import { PrismicNextImage } from "@prismicio/next";
 import clsx from "clsx";
