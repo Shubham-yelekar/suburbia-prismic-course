@@ -6,7 +6,8 @@ import { Bounded } from "@/components/Bounded";
 import { LazyYouTubePlayer } from "./LazyYoutubePlayer";
 import clsx from "clsx";
 import Image from "next/image";
-
+import { SkateboardProduct } from "../ProductGrid/SkateboardProduct";
+import { SkaterScribble } from "../TeamGrid/SkaterScribble";
 /**
  * Props for `VideoBlock`.
  */
@@ -33,6 +34,7 @@ const VideoBlock = ({ slice }: VideoBlockProps): JSX.Element => {
             "bg-brand-lime absolute inset-0 ~translate-x-2/3 ~translate-y-2/3 "
           )}
         ></div>
+
         <div
           className={clsx(
             MASK_CLASSES,
